@@ -8,93 +8,110 @@
     <link rel="stylesheet" href="form1.css"  href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 <body>
-    <section id="group1">
-        <div id="header">
-            <h1 id="title">
-                STUDENT REGISTRATION FORM
+    <header class="header">
+
+            <img class="header-image" src="logoengwitsam.png" alt="logo">
+        <div class="header-content">
+            <h1 class="header-title">
+                REGISTRATION FORM
             </h1>
-            <p id="subtitle">
-                Fill out the form carefully for registration
+            <p class="header-subtitle">
+                Fill out the form carefully to registration
             </p>
         </div>
 
-    </section>
-
-    <form id="group2">
-        <div id="info">
-            <div class="infotiltle">
-                <label id="infotitle"> STUDENT NAME</label>
-            </div> <br>
-            
-            <div>
-                <input type="text" name="fname" id="fname">
-                <div>
-                    <label id="lab" for="fname"> FIRST NAME</label>
-                </div><br>
-                
-                
-                <input type="text" name="gname" id="gname">
-                <div>
-                    <label id="lab"for="gname"> LAST NAME</label>GIVEN NAME</label>
-                </div><br>
-               
-              
-                <input type="text" name="lname" id="lname">
-                <div>
-                    <label id="lab" for="lname"> LAST NAME</label>
-                </div>
-                
-            </div><br>
-
-            <div>
-                <label id="infotitle"> BIRTH DATE</label>
-            </div><br>
-
-            <div>
-                <input type="number" name="birthday" id="birthday">
-                <label id="lab" for="birthday"> Day </label>
-            
-                <input type="month" name="month" id="month">
-                <label id="lab" for="month"> Month</label>
-              
-                <input type="year" name="year" id="year">
-                <label id="lab" for="year"> Year</label>
-
-                <select id="sex" name="sex">
-                    <option selected disabled value="" >Select Sex</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>None</option>
-                </select> 
-                <label id="lab" for="sex">Sex</label>
-                
-            </div><br>  
-
-            <div>
-                <label id="infotitle"> CONTACT INFORMATION </label>
-            </div><br>
+    </header>
 
 
-            <div>
-                <input type="number" name="cellnumber">
-                <label id="lab" for="cellnumber">Cell phone Number</label>
+    
 
-                <input type="number" name="homephonenumber">
-                <Home id="lab" for="homephonenumber">Home phone Number</label>
+        <form class="form">
 
-                <input type="email" name="email">
-                <label id="lab" for="email">Email Address</label>
+
+            <div class="form-content">
+
+                    <div >
+                        <label class="form-tiltle"> STUDENT NAME</label>
+                    </div> <br>
+                    
+                        <div class="student-name">
+                            <div class="fname">
+                                <input type="text" name="fname" id="fname">
+                            
+                                <label id="lab" for="fname"> FIRST NAME</label>
+                            </div><br>
+                    
+                            <div class="gname">
+                                <input type="text" name="gname" id="gname">
+                            
+                                <GIVEN id="lab"for="gname">GIVEN NAME</label>
+                            </div><br>
+                        
+                            <div class="lname">
+                                <input type="text" name="lname" id="lname">
+                            
+                                <label id="lab" for="lname"> LAST NAME</label>
+                            </div>
+                        </div>  <br><br>  
+                            
+
+                    <div>
+                        <label class="form-tiltle"> BIRTH DATE</label>
+                    </div><br>
+
+                    <div class="birthinfo">
+                        <div class="day">
+                            <input type="number" name="birthday" id="birthday">
+                            <label id="lab" for="birthday"> Day </label>
+                        </div>
+
+                        <div class="month">
+                            <input type="month" name="month" id="month">
+                            <label id="lab" for="month"> Month</label>
+                        </div>  
+                        
+                        <div class="year">
+                            <input type="year" name="year" id="year">
+                            <label id="lab" for="year"> Year</label>
+                        </div>
+
+                        <div class="sex">
+                            <select id="sex" name="sex">
+                                <option selected disabled value="" >Select Sex</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>None</option>
+                            </select> 
+                            <label id="lab" for="sex">Sex</label>
+                        </div>
+                    </div><br> 
+
+                    <div>
+                        <div>
+                            <label class="form-tiltle"> CONTACT INFORMATION </label>
+                        </div><br>
+
+
+                        <div>
+                            <input type="number" name="cellnumber">
+                            <label id="lab" for="cellnumber">Cell phone Number</label>
+
+                            <input type="number" name="homephonenumber">
+                            <Home id="lab" for="homephonenumber">Home phone Number</label>
+
+                            <input type="email" name="email">
+                            <label id="lab" for="email">Email Address</label>
+                        </div>
+                    </div> <br><br>
+
+                        <button id="submit" class="btn">Submit</button>
 
             </div>
-       </div> <br><br>
-
-                <button id="submit" class="btn">Submit</button>
-        
-    </form>
+        </form>
     
-    <section>
+    
         
-    </section>
+    
     
     
 </body>
