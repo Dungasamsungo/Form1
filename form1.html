@@ -22,89 +22,90 @@
 
     </header>
 
-
-    
-
         <form class="form">
-
-
             <div class="form-content">
 
-                    <div >
-                        <label class="form-tiltle"> STUDENT NAME</label>
-                    </div> <br>
+                    <p >
+                        <label class="form-tiltle"> <h1> STUDENT NAME </h1></label>
+                    </p>
+                    <br>
                     
                         <div class="student-name">
                             <div class="fname">
-                                <input type="text" name="fname" id="fname">
-                            
                                 <label id="lab" for="fname"> FIRST NAME</label>
-                            </div><br>
+                                <input type="text" lenght="50" name="fname" id="fname"> 
+                            </div>
+                            <br>
                     
                             <div class="gname">
-                                <input type="text" name="gname" id="gname">
-                            
-                                <GIVEN id="lab"for="gname">GIVEN NAME</label>
-                            </div><br>
+                                <label id="lab"for="gname">GIVEN NAME</label>
+                                <input type="text" lenght="50" name="gname" id="gname">
+                            </div>
+                            <br>
                         
                             <div class="lname">
-                                <input type="text" name="lname" id="lname">
-                            
                                 <label id="lab" for="lname"> LAST NAME</label>
+                                <input type="text" lenght="50" name="lname" id="lname">    
                             </div>
-                        </div>  <br><br>  
+                        </div>  
+                        <br> 
                             
-
-                    <div>
-                        <label class="form-tiltle"> BIRTH DATE</label>
-                    </div><br>
+                    <p>
+                        <label class="form-tiltle"> <h1>BIRTH INFORMATION</h1></label>
+                    </p>
+                    <br>
 
                     <div class="birthinfo">
                         <div class="day">
-                            <input type="number" name="birthday" id="birthday">
                             <label id="lab" for="birthday"> Day </label>
+                            <input type="number" name="birthday" id="birthday">
                         </div>
 
                         <div class="month">
-                            <input type="month" name="month" id="month">
                             <label id="lab" for="month"> Month</label>
+                            <input type="month" name="month" id="month">
                         </div>  
                         
                         <div class="year">
-                            <input type="year" name="year" id="year">
                             <label id="lab" for="year"> Year</label>
+                            <input type="year" name="year" id="year">
                         </div>
 
                         <div class="sex">
+                            <label id="lab" for="sex">Sex</label>
                             <select id="sex" name="sex">
                                 <option selected disabled value="" >Select Sex</option>
                                 <option>Male</option>
                                 <option>Female</option>
                                 <option>None</option>
                             </select> 
-                            <label id="lab" for="sex">Sex</label>
                         </div>
-                    </div><br> 
+                    </div>
+                    <br> 
 
-                    <div>
-                        <div>
-                            <label class="form-tiltle"> CONTACT INFORMATION </label>
-                        </div><br>
+                        <p>
+                            <label class="form-tiltle"> <h1>CONTACT INFORMATION</h1> </label>
+                        </p><br>
 
+                    <div class="contact">
 
-                        <div>
-                            <input type="number" name="cellnumber">
+                        <div class="cell">
                             <label id="lab" for="cellnumber">Cell phone Number</label>
-
+                            <input type="number" name="cellnumber">
+                        </div>  
+                        
+                        <div class="cell">
+                            <label id="lab" for="homephonenumber">Home phone Number</label>
                             <input type="number" name="homephonenumber">
-                            <Home id="lab" for="homephonenumber">Home phone Number</label>
+                        </div>
 
-                            <input type="email" name="email">
+                        <div class="cell">
                             <label id="lab" for="email">Email Address</label>
+                            <input type="email" name="email">
                         </div>
                     </div> <br><br>
 
-                        <button id="submit" class="btn">Submit</button>
+                        <button id="submit" class="main-btn">Submit</button>
 
             </div>
         </form>
